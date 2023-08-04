@@ -1,0 +1,41 @@
+{
+  "name": "@ignite-ui/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "storybook build"
+  },
+  "keywords": [],
+  "author": "Romeu soares de souto",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.1.1",
+    "@storybook/addon-interactions": "^7.1.1",
+    "@storybook/addon-links": "^7.1.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.1.1",
+    "@storybook/react": "^7.1.1",
+    "@storybook/react-vite": "^7.1.1",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/testing-library": "^0.2.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.1.1",
+    "vite": "^4.4.7"
+  },
+  "dependencies": {
+    "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.2.1",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
