@@ -13,6 +13,7 @@
   "author": "Romeu soares de souto",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-actions": "^7.2.1",
     "@storybook/addon-essentials": "^7.1.1",
     "@storybook/addon-interactions": "^7.1.1",
     "@storybook/addon-links": "^7.1.1",
