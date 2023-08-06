@@ -1,21 +1,26 @@
-/** @type { import('@storybook/react-vite').StorybookConfig } */
-const config = {
-  stories: [
-    "../src/pages/**/*.mdx", 
+module.exports = {
+  "stories": [
+    "../src/pages/**/*.stories.mdx",
     "../src/stories/**/*.stories.tsx"
   ],
-  addons: [
+  "addons": [
     "@storybook/addon-links", 
     "@storybook/addon-essentials", 
     "@storybook/addon-interactions", 
     "@storybook/addon-a11y", 
   ],
-  framework: {
+  "framework": {
     name: "@storybook/react-vite",
     options: {}
   },
-  docs: {
+  "docs": {
     autodocs: true
+  },
+  "core": {
+    "builder": "@storybook/builder-vite"
+  },
+  "features": {
+    "storyStoreV7": true
   },
   viteFinal: (config, {configType}) => {
     if (configType === 'PRODUCTION') {
@@ -25,4 +30,3 @@ const config = {
     return config
   }
 };
-export default config;
