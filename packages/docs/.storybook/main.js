@@ -4,15 +4,12 @@ module.exports = {
     "../src/stories/**/*.stories.tsx"
   ],
   "addons": [
-    "@storybook/addon-links", 
-    "@storybook/addon-essentials", 
-    "@storybook/addon-interactions", 
-    "@storybook/addon-a11y", 
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions",
+    "@storybook/addon-a11y"
   ],
   "framework": "@storybook/react",
-  "docs": {
-    autodocs: true
-  },
   "core": {
     "builder": "@storybook/builder-vite"
   },
