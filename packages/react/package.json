@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@byromeu-ignite-ui/react",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "Romeu soares de souto",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@byromeu-ignite-ui/eslint-config": "*",
+    "@byromeu-ignite-ui/tokens": "*",
+    "@byromeu-ignite-ui/ts-config": "*",
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
     "react": "^18.2.0",

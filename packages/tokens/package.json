@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "1.0.0",
+  "name": "@byromeu-ignite-ui/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "Romeu soares de souto",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@byromeu-ignite-ui/ts-config": "*",
+    "@byromeu-ignite-ui/eslint-config": "*",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   }

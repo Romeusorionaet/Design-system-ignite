@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens/dist'
+} from '@byromeu-ignite-ui/tokens/dist'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
