@@ -1,0 +1,2 @@
+import{C as s,B as o,T as e}from"./index.a6c2f5f3.js";import{a as t,j as a}from"./jsx-runtime.f25b9dc7.js";import"./index.fd357981.js";import"./iframe.2268a985.js";import"./index.9ec15892.js";const x={title:"Form/Checkbox",component:s,tags:["autodocs"],args:{},decorators:[r=>t(o,{as:"label",css:{display:"flex",flexDirection:"row",alignItems:"center",gap:"$2"},children:[r(),a(e,{size:"sm",children:"Accept terms of use"})]})]},l={},d=["Primary"];export{l as Primary,d as __namedExportsOrder,x as default};
+//# sourceMappingURL=Checbox.stories.5d90b879.js.map

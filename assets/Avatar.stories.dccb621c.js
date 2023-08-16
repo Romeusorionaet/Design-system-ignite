@@ -1,0 +1,2 @@
+import{A as t}from"./index.a6c2f5f3.js";import"./index.fd357981.js";import"./iframe.2268a985.js";import"./index.9ec15892.js";import"./jsx-runtime.f25b9dc7.js";const e={title:"Data display/Avatar",component:t,tags:["autodocs"],args:{src:"https://github.com/romeusorionaet.png",alt:"Romeu soares"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},p=["Primary","WithFallback"];export{c as Primary,m as WithFallback,p as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.dccb621c.js.map
