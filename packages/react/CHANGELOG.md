@@ -1,5 +1,11 @@
 # @byromeu-ignite-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- Add Components ToastAlert and ToolTip
+
 ## 3.0.0
 
 ### Major Changes
